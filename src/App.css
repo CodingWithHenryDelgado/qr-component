@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+html {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.component {
+  background-color: white;
+  border-radius: 20px;
+  color: hsl(218, 44%, 22%);
+  display: flex;
+  font-family: 'Outfit', sans-serif;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5% 5% 15% 5%;
+  text-align: center;
+  width: 75vw;
+}
+
+.component h1 {
+  font-size: 2.5vh;
+  margin: 5% 2%;
+}
+
+.component img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.component p {
+  font-size: 1.8vh;
+}
+
+@media (min-width: 768px) {
+  .component {
+    padding: 1%;
+    width: 35vw;
+  }
+
+  .component h1 {
+    font-size: 2.5vh;
+  }
+
+  .component p {
+    font-size: 2vh;
+    margin: 0 0 8% 0;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .component {
+    padding: 1%;
+    width: 20vw;
+  }
+
+  .component img {
+    height: 75%;
+  }
+
+  .component h1 {
+    font-size: 1.9vh;
+  }
+
+  .component p {
+    font-size: 1.6vh;
+    margin: 0 0 5% 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .component h1 {
+    font-size: 2.6vh;
+  }
+
+  .component p {
+    font-size: 2vh;
+  }
+}
